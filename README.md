@@ -5,7 +5,8 @@ A program to collect linguistic data from the fiction publishing website archive
 # Frequency List
 You can use this command line tool to create a frequency list of ngrams from works matching a certain search query. For example, to analyze the first 50 works in the Harry Potter fandom and collect ngrams of size 3:
 ```
-python3 read_search.py https://archiveofourown.org/tags/Harry%20Potter%20-%20J*d*%20K*d*%20Rowling/works --id_limit=50 n=3 > frequency.txt
+python3 read_search.py "https://archiveofourown.org/tagsHarry%20Potter%20-%20J*d*%20K*d*%20Rowling/works"
+--id_limit=5 --n=3 > frequency.txt
 ```
 
 # Finding Translations
